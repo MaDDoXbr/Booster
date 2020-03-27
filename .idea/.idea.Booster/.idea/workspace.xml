@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5fe167-2cf0-4db1-9871-10fd56a75bae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Foguete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Foguete.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Booster_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Booster_Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Booster_Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Booster_Level2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rocket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ambience.ogg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/ambience.ogg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Booster_Level1.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Booster_Level2.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,6 +50,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -80,7 +80,8 @@
       <workItem from="1583511326307" duration="32000" />
       <workItem from="1584109868398" duration="605000" />
       <workItem from="1585281839620" duration="1354000" />
-      <workItem from="1585283939225" duration="728000" />
+      <workItem from="1585283939225" duration="1296000" />
+      <workItem from="1585314186541" duration="5037000" />
     </task>
     <servers />
   </component>
@@ -101,6 +102,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="217" y="109" key="SettingsEditor" timestamp="1585317061419">
+      <screen x="0" y="0" width="1707" height="929" />
+    </state>
+    <state x="217" y="109" key="SettingsEditor/0.0.1707.929@0.0.1707.929" timestamp="1585317061419" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

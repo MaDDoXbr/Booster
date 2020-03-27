@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Net.Security;
 using UnityEngine;
- 
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
+
 public class Rocket : MonoBehaviour
 {
     private Rigidbody rb;
@@ -9,14 +12,25 @@ public class Rocket : MonoBehaviour
     public KeyCode RotateLeftKey = KeyCode.A;
     public KeyCode RotateRightKey = KeyCode.D;
     public KeyCode ThrustKey = KeyCode.W;
-    public ParticleSystem Particle;
-    public AudioSource audioSource;
     public float thrustForce = 1000f;
     public float rotationForce = 100f;
+    public AudioSource audioSource;
+    public ParticleTypes Particles;
+    [Serializable]
+    public class ParticleTypes
+    {
+        public ParticleSystem Thrust;
+        public ParticleSystem Explosion;
+        public ParticleSystem Scratch;
+    }
 
-    private string WallTag = "Wall";
-    private string LandingPadTag = "LandingPad";
+    public AudioClip ScratchSound;
+    
+    private const string WallTag = "Wall";
+    private const string LandingPadTag = "LandingPad";
     public float ImpactThreshold = 4.5f;
+
+    private bool IsAlive = true;
 
     void Awake()
     {
@@ -25,6 +39,8 @@ public class Rocket : MonoBehaviour
 
     void FixedUpdate() //Passo da física
     {
+        if (!IsAlive)
+            return;
         //## THRUST
         if (Input.GetKey(ThrustKey))
         {
@@ -33,13 +49,13 @@ public class Rocket : MonoBehaviour
             rb.AddRelativeForce(thrustForce * Vector3.up * Time.deltaTime);
             if (audioSource != null && !audioSource.isPlaying)
                 audioSource.Play();
-            if (Particle != null && !Particle.isPlaying)
-                Particle.Play();
+            if (Particles.Thrust != null && !Particles.Thrust.isPlaying)
+                Particles.Thrust.Play();
         } else {
             if (audioSource != null && audioSource.isPlaying)
                 audioSource.Stop();
-            if (Particle != null && Particle.isPlaying)
-                Particle.Stop();
+            if (Particles.Thrust != null && Particles.Thrust.isPlaying)
+                Particles.Thrust.Stop();
         }
       
         //## ROTATE
@@ -76,11 +92,36 @@ public class Rocket : MonoBehaviour
         var impact = col.relativeVelocity.magnitude;
         Debug.Log("Impact Strength: "+impact);
         if (impact > ImpactThreshold)
-            Debug.Log("You Crashed!");
+            Crashed();
         else
-        {
-            Debug.Log("Scratch");
-        }
+            Scratch(col);
+    }
+
+    private void Scratch(Collision col)
+    {
+        Debug.Log("Scratch");
+        var contactPosition = col.GetContact(0).point;
+        Instantiate(Particles.Scratch.gameObject, contactPosition, Quaternion.identity);
+        audioSource.PlayOneShot(ScratchSound);
+    }
+
+    private void Crashed()
+    {
+        //Debug.Log("You Crashed!");
+        if (!IsAlive)
+            return;
+        Instantiate(Particles.Explosion.gameObject, transform.position, Quaternion.identity);        
+        IsAlive = false;
+        
+        StartCoroutine(LoadSceneDelayed());
+    }
+
+    private IEnumerator LoadSceneDelayed()
+    {
+        //gameObject.SetActive(false);
+        yield return new WaitForSeconds(3f);
+        Debug.Log("Reloading Scene");
+        SceneManager.LoadScene(0);
     }
 
     private void Success()
