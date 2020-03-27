@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Net.Security;
+using UnityEngine;
  
 public class Rocket : MonoBehaviour
 {
@@ -11,6 +13,10 @@ public class Rocket : MonoBehaviour
     public AudioSource audioSource;
     public float thrustForce = 1000f;
     public float rotationForce = 100f;
+
+    private string WallTag = "Wall";
+    private string LandingPadTag = "LandingPad";
+    public float ImpactThreshold = 4.5f;
 
     void Awake()
     {
@@ -37,7 +43,7 @@ public class Rocket : MonoBehaviour
         }
       
         //## ROTATE
-        rb.freezeRotation = true;    //controle manual da rotação
+        //rb.freezeRotation = true;    //controle manual da rotação
         if (Input.GetKey(RotateLeftKey))
         {
             //print("Rotating Left");
@@ -54,6 +60,31 @@ public class Rocket : MonoBehaviour
         
         transform.rotation = Quaternion.Euler(0f, rotAngle.y, rotAngle.z);
         transform.localPosition = new Vector3(pos.x, pos.y, 0f);
-        rb.freezeRotation = false; //controle físico da rotação
+        //rb.freezeRotation = false; //controle físico da rotação
+    }
+
+    private void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == LandingPadTag)
+            Success();
+        else if (col.gameObject.tag == WallTag)
+            CheckImpact(col);
+    }
+
+    private void CheckImpact(Collision col)
+    {
+        var impact = col.relativeVelocity.magnitude;
+        Debug.Log("Impact Strength: "+impact);
+        if (impact > ImpactThreshold)
+            Debug.Log("You Crashed!");
+        else
+        {
+            Debug.Log("Scratch");
+        }
+    }
+
+    private void Success()
+    {
+        Debug.Log("You Won!");
     }
 }
