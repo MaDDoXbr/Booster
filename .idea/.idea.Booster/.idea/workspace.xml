@@ -2,12 +2,229 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5fe167-2cf0-4db1-9871-10fd56a75bae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/README.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/README.html.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/DemoScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/DemoScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/Cube.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/Cube.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/NaughtyScriptableObject.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/NaughtyScriptableObject.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Samples/DemoScene/TestAssets/icon-github.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/AllowNestingAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/AllowNestingAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DrawerAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DrawerAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/EnumFlagsAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/EnumFlagsAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/HorizontalLineAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/HorizontalLineAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InfoBoxAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InfoBoxAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InputAxisAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InputAxisAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/MinMaxSliderAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/MinMaxSliderAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ProgressBarAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ProgressBarAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ReadOnlyAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ReadOnlyAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ResizableTextAreaAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ResizableTextAreaAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/SceneAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/SceneAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ShowAssetPreviewAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ShowAssetPreviewAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/TagAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/TagAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ButtonAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ButtonAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ReorderableListAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ReorderableListAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNativePropertyAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNativePropertyAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNonSerializedFieldAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNonSerializedFieldAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/SpecialCaseDrawerAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/SpecialCaseDrawerAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/INaughtyAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/INaughtyAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/BoxGroupAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/BoxGroupAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/DisableIfAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/DisableIfAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttributeBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttributeBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/LabelAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/LabelAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/MetaAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/MetaAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/OnValueChangedAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/OnValueChangedAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttributeBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttributeBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/NaughtyAttributes.Core.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/NaughtyAttributes.Core.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/Utility/EColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/Utility/EColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/Utility/EConditionOperator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/Utility/EConditionOperator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MaxValueAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MaxValueAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MinValueAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MinValueAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/ValidateInputAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/ValidateInputAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/ValidatorAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/ValidatorAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/DecoratorDrawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/DecoratorDrawers/HorizontalLineDecoratorDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/DecoratorDrawers/HorizontalLineDecoratorDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/DecoratorDrawers/InfoBoxDecoratorDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/DecoratorDrawers/InfoBoxDecoratorDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/NaughtyAttributes.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/NaughtyAttributes.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/NaughtyInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/NaughtyInspector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/AllowNestingPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/AllowNestingPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/DropdownPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/DropdownPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/EnumFlagsPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/EnumFlagsPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/InputAxisPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/InputAxisPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/MinMaxSliderPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/MinMaxSliderPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ProgressBarPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ProgressBarPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/PropertyDrawerBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/PropertyDrawerBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ReadOnlyPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ReadOnlyPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ResizableTextAreaPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ResizableTextAreaPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ScenePropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ScenePropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ShowAssetPreviewPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/ShowAssetPreviewPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/TagPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers/TagPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/ReorderableListPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/ReorderableListPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/SpecialCasePropertyDrawerBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyDrawers_SpecialCase/SpecialCasePropertyDrawerBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MaxValuePropertyValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MaxValuePropertyValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MinValuePropertyValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/MinValuePropertyValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/PropertyValidatorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/PropertyValidatorBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/RequiredPropertyValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/RequiredPropertyValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/ValidateInputPropertyValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/PropertyValidators/ValidateInputPropertyValidator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility/NaughtyEditorGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility/NaughtyEditorGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility/PropertyUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility/PropertyUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility/ReflectionUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Editor/Utility/ReflectionUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/BoxGroupTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/BoxGroupTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ButtonTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ButtonTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/DisableIfTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/DisableIfTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/DropdownTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/DropdownTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/EnableIfTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/EnableIfTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/EnumFlagsTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/EnumFlagsTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/HideIfTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/HideIfTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/HorizontalLineTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/HorizontalLineTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/InfoBoxTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/InfoBoxTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/InputAxisTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/InputAxisTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/LabelTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/LabelTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/MinMaxSliderTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/MinMaxSliderTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/MinMaxValueTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/MinMaxValueTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/NaughtyAttributes.Test.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/NaughtyAttributes.Test.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/OnValueChangedTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/OnValueChangedTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ProgressBarTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ProgressBarTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ReadOnlyTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ReadOnlyTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ReorderableListTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ReorderableListTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/RequiredTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/RequiredTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/SceneTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/SceneTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowAssetPreviewTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowAssetPreviewTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowIfTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowIfTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowNativePropertyTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowNativePropertyTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowNonSerializedFieldTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ShowNonSerializedFieldTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/TagTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/TagTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ValidateInputTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/ValidateInputTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/_NaughtyScriptableObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/Scripts/Test/_NaughtyScriptableObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NaughtyAttributes/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Booster/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Booster_Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Booster_Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Foguete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Foguete.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Booster_Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Booster_Level2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rocket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,22 +238,28 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rocket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Booster_Level1.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Booster_Level2.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FX.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Rocket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rocket.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1YlH15WZBczyFXR1ZhrynEZ66O6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -81,7 +304,8 @@
       <workItem from="1584109868398" duration="605000" />
       <workItem from="1585281839620" duration="1354000" />
       <workItem from="1585283939225" duration="1296000" />
-      <workItem from="1585314186541" duration="5037000" />
+      <workItem from="1585314186541" duration="7381000" />
+      <workItem from="1585883703531" duration="4790000" />
     </task>
     <servers />
   </component>
@@ -102,6 +326,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="217" y="109" key="SettingsEditor" timestamp="1585317061419">

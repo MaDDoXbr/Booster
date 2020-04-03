@@ -14,8 +14,10 @@ public class Rocket : MonoBehaviour
     public KeyCode ThrustKey = KeyCode.W;
     public float thrustForce = 1000f;
     public float rotationForce = 100f;
+    public AudioClip ScratchSound;
     public AudioSource audioSource;
     public ParticleTypes Particles;
+    
     [Serializable]
     public class ParticleTypes
     {
@@ -24,13 +26,13 @@ public class Rocket : MonoBehaviour
         public ParticleSystem Scratch;
     }
 
-    public AudioClip ScratchSound;
-    
     private const string WallTag = "Wall";
     private const string LandingPadTag = "LandingPad";
     public float ImpactThreshold = 4.5f;
 
     private bool IsAlive = true;
+    public FX ThrustFX;
+    public FX ExplosionFX;
 
     void Awake()
     {
@@ -41,23 +43,12 @@ public class Rocket : MonoBehaviour
     {
         if (!IsAlive)
             return;
-        //## THRUST
-        if (Input.GetKey(ThrustKey))
-        {
-            //print("Thrusting");
-            //rb.AddRelativeForce(force); //Vector3.Up; set mass to 0.1; set drag to .2
-            rb.AddRelativeForce(thrustForce * Vector3.up * Time.deltaTime);
-            if (audioSource != null && !audioSource.isPlaying)
-                audioSource.Play();
-            if (Particles.Thrust != null && !Particles.Thrust.isPlaying)
-                Particles.Thrust.Play();
-        } else {
-            if (audioSource != null && audioSource.isPlaying)
-                audioSource.Stop();
-            if (Particles.Thrust != null && Particles.Thrust.isPlaying)
-                Particles.Thrust.Stop();
-        }
-      
+        ThrustCheck();
+        RotateCheck();
+    }
+
+    private void RotateCheck()
+    {
         //## ROTATE
         //rb.freezeRotation = true;    //controle manual da rotação
         if (Input.GetKey(RotateLeftKey))
@@ -77,6 +68,21 @@ public class Rocket : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, rotAngle.y, rotAngle.z);
         transform.localPosition = new Vector3(pos.x, pos.y, 0f);
         //rb.freezeRotation = false; //controle físico da rotação
+    }
+
+    private void ThrustCheck()
+    {
+        if (Input.GetKey(ThrustKey))
+        {
+            //print("Thrusting");
+            //rb.AddRelativeForce(force); //Vector3.Up; set mass to 0.1; set drag to .2
+            rb.AddRelativeForce(thrustForce * Vector3.up * Time.deltaTime);
+            ThrustFX.Play();
+        }
+        else
+        {
+            ThrustFX.Stop();
+        }
     }
 
     private void OnCollisionEnter(Collision col)
@@ -110,7 +116,7 @@ public class Rocket : MonoBehaviour
         //Debug.Log("You Crashed!");
         if (!IsAlive)
             return;
-        Instantiate(Particles.Explosion.gameObject, transform.position, Quaternion.identity);        
+        ExplosionFX.Spawn(transform.position);        
         IsAlive = false;
         
         StartCoroutine(LoadSceneDelayed());
